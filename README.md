@@ -6,9 +6,9 @@ The Wiegand interface is a de facto standard commonly used to connect a card rea
 
 The original [Wiegand library](https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino) was written to support a single wiegand reader for an Arduino UNO. As time goes by, gathered by the requests from users, I wrote another [Wiegand NG library](https://github.com/jpliew/Wiegand-NG-Multi-Bit-Wiegand-Library-for-Arduino) to solve readers that send out non-standard bit length wiegand data. Due to different methods used in storing the raw data, the two library were maintained in different repos. 
 
-This Multi Wiegand library was a modified version of the original Wiegand library written to support C++ objects so that the same object can be reused by multiple wiegand readers and yet with the variables are store in the individual object's memory. 
+This Multi Wiegand library was a modified version of the original Wiegand library written to support C++ objects so that the same object can be reused by multiple wiegand readers and yet with the variables stored in the individual object's memory. 
 
-The reason why when I first wrote the original Wiegand library I did not write the library in this pure C++ object method was because [Arduino attachinterrupt cannot be attached to class method directly](https://www.google.com/search?q=arduino+attachinterrupt+in+class&oq=arduino+attachinterrupt+in+class) and I also want the first library to be clean and simple instead of adding hacks to make it work with objects like this current library does.
+The reason why when I first wrote the original Wiegand library I did not write the library in pure C++ object method was because [Arduino attachinterrupt cannot be attached to class method directly](https://www.google.com/search?q=arduino+attachinterrupt+in+class&oq=arduino+attachinterrupt+in+class) and I also wanted the first library to be clean and simple to use instead of adding hacks and workaround like this library does.
 
 
 # Different Wiegand libraries comparison
