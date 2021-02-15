@@ -29,8 +29,7 @@ Create a folder named WiegandMulti in Arduino's libraries folder.  You will have
 
 ## Arduino Sketch
 
-![alt text](http://www.monkeyboard.org/images/tutorials/wiegand/wiegand_arduino.png "RFID Reader to Arduino connection diagram")
-
+![multi-wiegand](https://user-images.githubusercontent.com/1773147/107901053-cec92b80-6f96-11eb-8b93-ffd8e923b624.png "Multi RFID Reader to Arduino connection diagram")
 
 Execute Arduino IDE, select Example-->WiegandMulti-->WiegandTest
 
