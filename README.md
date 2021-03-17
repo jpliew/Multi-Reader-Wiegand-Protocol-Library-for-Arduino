@@ -28,6 +28,7 @@ This library was designed to decode standard Wiegand protocol with 1 START bit, 
 The following are needed 
 
 * [Arduino](http://www.arduino.cc) - Any ATMEGA328 compatible board should work.
+* [Pin Change Interrupt Library](https://github.com/NicoHood/PinChangeInterrupt)
 * [Wiegand RFID Reader](http://www.monkeyboard.org/products/85-developmentboard/84-rfid-wiegand-protocol-development-kit) - The code was written for this reader however customers reported working with [HID](http://www.hidglobal.com/products/cards-and-credentials) compatible readers.
 * DATA0 of the first Wiegand reader connects to Arduino PIN 2 and DATA1 of the first Wiegand reader connects to Arduino PIN 3
 * DATA0 of the second Wiegand reader connects to Arduino PIN 4 and DATA1 of the second Wiegand reader connects to Arduino PIN 5
