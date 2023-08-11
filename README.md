@@ -17,7 +17,7 @@ The reason why when I first wrote the original Wiegand library I did not write t
 | ---| --- |
 | [Wiegand library](https://github.com/monkeyboard/Wiegand-Protocol-Library-for-Arduino) | This is the easiest and cleanest library to use when only a single wiegand reader is needed. I strongly suggest to use this version if you only need one reader support |
 | [Wiegand NG library](https://github.com/jpliew/Wiegand-NG-Multi-Bit-Wiegand-Library-for-Arduino) | This is another single reader library, however it uses dynamic memory to store the raw wiegand thus allowing unlimited bit length to be stored as long as your Arduino board has the memory to store it. I won't recommend to use this library unless you are facing a non-standard wiegand reader that sends out data that will not be decoded by the original Wiegand library. |
-| Multi Wiegand library | This library uses pin change interrupt this allowing all the pin change interrupt supported pin to be used. With this, multiple readers can also be supported. Due to a workaround (hack) used to overcome the limitation with `attachInterrupt` not being able to be attached to class method directly, the initialisation of the sketch is more ugly and complicated. |
+| Multi Wiegand library | This library uses pin change interrupt, thus allowing all the pin change interrupt supported pins to be used. With this, multiple readers can also be supported. Due to a workaround (hack) used to overcome the limitation with `attachInterrupt` not being able to be attached to the class method directly, the initialisation of the sketch is more ugly and complicated. |
 
 ## NON Standard Bit Length
 
